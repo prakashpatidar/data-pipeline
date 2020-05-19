@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "name": "cdr-stream",
+      "source": "kafka",
+      "options": {
+        "kafka.bootstrap.servers": "localhost:9092",
+        "kafka.topic": "cdr",
+        "kafka.consumer.group": "data-pipeline-g1",
+        "kafka.message.format": "csv",
+        "val.sep":"\t"
+      }
+    }
+  ]
+}

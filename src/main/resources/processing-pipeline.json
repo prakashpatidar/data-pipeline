@@ -1,0 +1,38 @@
+{
+  "rootProcessingUnit": {
+    "processingUnits": [
+      {
+        "sources": [
+          {
+            "id": 1,
+            "name": "d1",
+            "format": "format",
+            "options": {}
+          }
+        ],
+        "operationInfo": {
+          "operation": "Filter",
+          "operationGrammar": "f1"
+        }
+      },
+      {
+        "sources": [
+          {
+            "id": 2,
+            "name": "d2",
+            "format": "format",
+            "options": {}
+          }
+        ],
+        "operationInfo": {
+          "operation": "Filter",
+          "operationGrammar": "f2"
+        }
+      }
+    ],
+    "operationInfo": {
+      "operation": "Join",
+      "operationGrammar": "joinsql"
+    }
+  }
+}
